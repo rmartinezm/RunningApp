@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RunningApp.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.RunningApp.TextView</item>
+    </style>
+
+    <style name="TextAppearance.RunningApp.TextView" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/colorTextOnWhite</item>
+    </style>
+
+    <style name="Theme.RunningApp.TextView.Title">
+        <item name="android:textAppearance">@style/TextAppearance.RunningApp.TextView.Title</item>
+    </style>
+
+    <style name="TextAppearance.RunningApp.TextView.Title">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.RunningApp.TextView.Content">
+        <item name="android:textAppearance">@style/TextAppearance.RunningApp.TextView.Content</item>
+    </style>
+
+    <style name="TextAppearance.RunningApp.TextView.Content">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Theme.RunningApp.TextView.Tiny">
+        <item name="android:textAppearance">@style/TextAppearance.RunningApp.TextView.Tiny</item>
+    </style>
+
+    <style name="TextAppearance.RunningApp.TextView.Tiny">
+        <item name="fontFamily">@font/roboto_thin</item>
+        <item name="android:fontFamily">@font/roboto_thin</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

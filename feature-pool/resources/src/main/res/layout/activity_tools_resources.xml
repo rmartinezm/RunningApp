@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".presentation.ToolsResourcesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/lateral_margin"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/vertical_margin">
+
+        <include layout="@layout/samples_colors" />
+
+        <View
+            style="@style/Theme.RunningApp.Divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_divider_height" />
+
+        <include layout="@layout/samples_text_views" />
+
+        <View
+            style="@style/Theme.RunningApp.Divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_divider_height" />
+
+        <include layout="@layout/samples_buttons" />
+
+        <View
+            style="@style/Theme.RunningApp.Divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_divider_height" />
+
+        <include layout="@layout/samples_check_boxes" />
+
+    </LinearLayout>
+
+</ScrollView>

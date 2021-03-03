@@ -1,0 +1,11 @@
+<resources>
+    <string name="race_tracking_start">Start</string>
+    <string name="race_tracking_initial_cron">00:00:00:00</string>
+    <string name="race_tracking_resume">Resume</string>
+    <string name="race_tracking_stop">Stop</string>
+    <string name="race_tracking_pause">Pause</string>
+    <string name="background_location_request_permission_rationale_title">Request permissions</string>
+    <string name="background_location_request_permission_rationale_message">The location permissions are required to the correct use of the app</string>
+    <string name="background_location_request_permission_rationale_negative_action">Cancel</string>
+    <string name="background_location_request_permission_rationale_positive_action">Accept</string>
+</resources>

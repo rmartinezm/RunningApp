@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".presentation.SplashActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/splash_icon_size"
+            android:layout_height="@dimen/splash_icon_size"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/double_vertical_margin"
+            android:contentDescription="@null"
+            android:src="@drawable/splash_logo" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

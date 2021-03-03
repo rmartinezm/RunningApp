@@ -1,0 +1,12 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+dependencies {
+    // Particular dependencies for this module
+}
+
+apply from: "$rootDir/feature-pool/base-feature-build.gradle"

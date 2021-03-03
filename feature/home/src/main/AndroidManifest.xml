@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="studio.juno.foreducation.example.runningapp.home">
+
+    <application>
+        <activity
+            android:name=".presentation.HomeActivity"
+            android:theme="@style/Theme.RunningApp.NoActionBar" />
+    </application>
+
+</manifest>

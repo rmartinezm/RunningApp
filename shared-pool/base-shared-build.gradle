@@ -1,0 +1,6 @@
+
+dependencies {
+    implementation AndroidXLifecycle.lifecycleLiveDataKtx
+}
+
+apply from: "$rootDir/base-build.gradle"

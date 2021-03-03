@@ -1,0 +1,26 @@
+/* PROJECT */
+rootProject.name = "RunningApp"
+include ':app'
+
+/* FEATURE */
+include ':feature:splash'
+include ':feature:home'
+include ':feature:race_tracking'
+
+/* FEATURE: POOL */
+include ':feature-pool:navigation'
+include ':feature-pool:resources'
+include ':feature-pool:tracking_location'
+include ':feature-pool:notification'
+include ':feature-pool:permissions'
+
+/* SHARED */
+include ':shared:race'
+
+/* SHARED: POOL */
+
+/* CORE */
+include ':core:extension'
+include ':core:failurehandler'
+include ':core:clean'
+include ':core:time_management'

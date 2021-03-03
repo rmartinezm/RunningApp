@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="RunningApp.app" target="1.8" />
+      <module name="RunningApp.buildSrc" target="1.8" />
+      <module name="RunningApp.feature-pool.navigation" target="1.8" />
+      <module name="RunningApp.feature-pool.notification" target="1.8" />
+      <module name="RunningApp.feature-pool.permissions" target="1.8" />
+      <module name="RunningApp.feature-pool.resources" target="1.8" />
+      <module name="RunningApp.feature-pool.tracking_location" target="1.8" />
+      <module name="RunningApp.feature.home" target="1.8" />
+      <module name="RunningApp.feature.race_tracking" target="1.8" />
+      <module name="RunningApp.feature.splash" target="1.8" />
+      <module name="RunningApp.home" target="1.8" />
+      <module name="RunningApp.navigation" target="1.8" />
+      <module name="RunningApp.race" target="1.8" />
+      <module name="RunningApp.resources" target="1.8" />
+      <module name="RunningApp.shared.race" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

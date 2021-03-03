@@ -1,0 +1,19 @@
+
+android {
+
+    buildFeatures {
+        dataBinding true
+    }
+
+}
+
+dependencies {
+    implementation AndroidX.constraintLayout
+    implementation AndroidXNavigation.fragmentKtx
+    implementation AndroidXNavigation.uiKtx
+    implementation Google.material
+    implementation project(path: FeaturePool.resources)
+    implementation project(path: FeaturePool.navigation)
+}
+
+apply from: "$rootDir/base-build.gradle"

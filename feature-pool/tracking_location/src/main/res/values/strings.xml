@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel_id_tracking_location">TRACKING_LOCATION_CHANNEL</string>
+    <string name="notification_channel_name_tracking_location">Tracking location notification channel</string>
+    <string name="tracking_location_notification_title">Running</string>
+</resources>

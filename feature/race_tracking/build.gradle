@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+dependencies {
+    implementation GooglePlayServices.playServiceLocation
+    implementation GooglePlayServices.playServiceMaps
+    implementation AndroidXLifecycle.lifecycleRuntimeKtx
+    implementation AndroidXLifecycle.lifecycleService
+    implementation project(path: FeaturePool.trackingLocation)
+    implementation project(path: FeaturePool.permissions)
+}
+
+apply from: "$rootDir/feature-pool/base-feature-build.gradle"

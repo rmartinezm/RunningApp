@@ -1,0 +1,6 @@
+
+dependencies {
+    implementation project(path: Core.extension)
+    implementation project(path: Core.failureHandler)
+    implementation project(path: Core.clean)
+}

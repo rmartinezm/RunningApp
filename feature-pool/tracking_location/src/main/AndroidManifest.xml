@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="studio.juno.foreducation.example.runningapp.tracking_location">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application>
+
+        <service
+            android:name=".tracking_location.service.TrackingLocationService"
+            android:foregroundServiceType="location" />
+
+    </application>
+
+</manifest>

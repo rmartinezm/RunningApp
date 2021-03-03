@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+android {
+
+    defaultConfig {
+        applicationId "studio.juno.foreducation.example.runningapp"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+}
+
+dependencies {
+    implementation AndroidX.constraintLayout
+    implementation Google.material
+    implementation Koin.androidViewModel
+    implementation project(path: FeaturePool.resources)
+    implementation project(path: FeaturePool.navigation)
+    implementation project(path: Feature.splash)
+    implementation project(path: Feature.home)
+    implementation project(path: Feature.raceTracking)
+    implementation project(path: Shared.race)
+}
+
+apply from: "$rootDir/base-build.gradle"

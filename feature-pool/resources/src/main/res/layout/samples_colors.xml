@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Theme.RunningApp.TextView.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Colors" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="@dimen/half_vertical_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.333"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="colorPrimary"
+            android:textColor="@color/colorTextOnPrimary" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.333"
+            android:background="@color/colorPrimaryLight"
+            android:gravity="center"
+            android:text="Light"
+            android:textColor="@color/colorTextOnPrimary" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.333"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="Dark"
+            android:textColor="@color/colorTextOnPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="@dimen/half_vertical_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.333"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="colorAccent"
+            android:textColor="@color/colorTextOnPrimary" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.333"
+            android:background="@color/colorAccentLight"
+            android:gravity="center"
+            android:text="Light"
+            android:textColor="@color/colorTextOnPrimary" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.333"
+            android:background="@color/colorAccentDark"
+            android:gravity="center"
+            android:text="Dark"
+            android:textColor="@color/colorTextOnPrimary" />
+
+    </LinearLayout>
+
+</LinearLayout>

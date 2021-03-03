@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="studio.juno.foreducation.example.runningapp.race_tracking.presentation.RaceTrackingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.66" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_cron"
+                style="@style/TextAppearance.RunningApp.TextView.Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/race_tracking_initial_cron"
+                android:textSize="32sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/mb_start"
+                style="@style/Theme.BimboGER.Button.Solid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:text="@string/race_tracking_start" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/mb_pause"
+                style="@style/Theme.BimboGER.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:text="@string/race_tracking_pause"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_on_pause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/mb_resume"
+                    style="@style/Theme.BimboGER.Button.Solid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/half_lateral_margin"
+                    android:text="@string/race_tracking_resume" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/mb_stop"
+                    style="@style/Theme.BimboGER.Button.Solid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/half_lateral_margin"
+                    android:text="@string/race_tracking_stop" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
